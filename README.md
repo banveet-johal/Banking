@@ -1,15 +1,15 @@
-# A first-level heading
 
 
-#Overview :
+
+## Overview :
  
 A local startup bank has commissioned to create part of their online banking
 software. The bank currently only contains savings accounts but has plans to add other types of
 accounts. 
 
-Description:
+## Description:
 
-Designed an abstract class named BankAccount to hold the following data for a bank account:
+# Designed an abstract class named BankAccount to hold the following data for a bank account:
 
 --The Balance
 
@@ -21,7 +21,7 @@ Designed an abstract class named BankAccount to hold the following data for a ba
 
 --Monthly service charges
 
-The Class has the following methods :
+# The Class has the following methods :
 
 Constructor: The constructor accepts arguments for the balance and
 annual interest rate; both arguments must be non-negative
@@ -51,13 +51,13 @@ balance, calls the calcInterest method, and then sets the
 variables that hold the number of withdrawals, number of
 deposits, and monthly service charges to zero.
 
-Design a SavingsAccount class that extends the BankAccount class. 
+# Design a SavingsAccount class that extends the BankAccount class. 
 
 The SavinqsAccount class has a status field to represent an active or inactive account. If the balance of a savings
 account falls below $25, it becomes inactive.No more withdrawals may be made until the balance is raised above $25, at which time the account becomes
 active again. 
 
-The savings account class should has the following methods:
+The savings account class has the following methods:
 
 withdraw: A method that determines whether the account is inactive
 before a withdrawal is made. (No withdrawal will be allowed if
@@ -76,6 +76,7 @@ the month is more than 4, a service charge of $1 for each
 withdrawal above 4 is added to the superclass field that holds
 the monthly service charges. 
 
+# Junit Tests
 Finally, a series of tests are performed using the Junit3 framework. The tests successfully test for all
 requirements mentioned above. 
 
