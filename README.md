@@ -27,17 +27,17 @@ accounts.
 annual interest rate; both arguments must be non-negative
 deposit
 
-deposit: A method that accepts an (positive) argument for the amount of
+**deposit:** A method that accepts an (positive) argument for the amount of
 the deposit. The method adds the argument to the
 account balance. It also increments the variable holding
 the number of deposits.
 
-withdraw: A method that accepts an (positive) argument for the amount of
+**withdraw:** A method that accepts an (positive) argument for the amount of
 the withdrawal. The method subtracts the argument from
 the balance. It also increments the variable holding the
 number of withdrawals.
 
-calcInterest: A method that updates the balance by calculating the monthly
+**calcInterest:** A method that updates the balance by calculating the monthly
 interest earned by the account, and adding this interest to the
 balance. 
 
@@ -46,7 +46,7 @@ Monthly Interest Rate = [Annual Interest Rate / 12)
 Monthly Interest = Balance * Monthly Interest Rate
 Balance = Balance + Monthly Interest
 
-monthlyProcess: A method that subtracts the monthly service charges from the
+**monthlyProcess:** A method that subtracts the monthly service charges from the
 balance, calls the calcInterest method, and then sets the
 variables that hold the number of withdrawals, number of
 deposits, and monthly service charges to zero.
@@ -57,27 +57,27 @@ The SavinqsAccount class has a status field to represent an active or inactive a
 account falls below $25, it becomes inactive.No more withdrawals may be made until the balance is raised above $25, at which time the account becomes
 active again. 
 
-The savings account class has the following methods:
+### The savings account class has the following methods:
 
-withdraw: A method that determines whether the account is inactive
+**withdraw:** A method that determines whether the account is inactive
 before a withdrawal is made. (No withdrawal will be allowed if
 the account is not active.) A withdrawal is then made by
 calling the superclass version of the method.
 
-deposit: A method that determines whether the account is inactive
+**deposit:** A method that determines whether the account is inactive
 before a deposit is made. If the account is inactive and the
 deposit brings the balance above $25, the account becomes
 active again. A deposit is then made by calling the superclass
 version of the method.
 
-monthlyProcess: Before the superclass method is called, this method checks
+**monthlyProcess:** Before the superclass method is called, this method checks
 the number of withdrawals. If the number of withdrawals for
 the month is more than 4, a service charge of $1 for each
 withdrawal above 4 is added to the superclass field that holds
 the monthly service charges. 
 
 ### Junit Tests
-Finally, a series of tests are performed using the Junit3 framework. The tests successfully test for all
+Finally, a series of tests are performed using the **JUnit3** framework. The tests successfully test for all
 requirements mentioned above. 
 
 The tests also include error cases (For example,
