@@ -51,7 +51,7 @@ balance, calls the calcInterest method, and then sets the
 variables that hold the number of withdrawals, number of
 deposits, and monthly service charges to zero.
 
-### Design a SavingsAccount class that extends the BankAccount class. 
+### Designed a SavingsAccount class that extends the BankAccount class. 
 
 The SavinqsAccount class has a status field to represent an active or inactive account. If the balance of a savings
 account falls below $25, it becomes inactive.No more withdrawals may be made until the balance is raised above $25, at which time the account becomes
