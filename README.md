@@ -23,7 +23,7 @@ accounts.
 
 ### The Class has the following methods :
 
-Constructor: The constructor accepts arguments for the balance and
+**Constructor**: The constructor accepts arguments for the balance and
 annual interest rate; both arguments must be non-negative
 deposit
 
