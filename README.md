@@ -1,15 +1,19 @@
  Overview :
-A local startup bank has commissioned me to create part of their online banking
+ 
+A local startup bank has commissioned to create part of their online banking
 software. The bank currently only contains savings accounts but has plans to add other types of
 accounts. 
+
 Description:
 
 Designed an abstract class named BankAccount to hold the following data for a bank account:
-The Balance
-Number of deposits this month
-Number of withdrawals
-Annual interest rate
-Monthly service charges
+
+--The Balance
+--Number of deposits this month
+--Number of withdrawals
+--Annual interest rate
+--Monthly service charges
+
 The Class has the following methods :
 
 Constructor The constructor should accept arguments for the balance and
